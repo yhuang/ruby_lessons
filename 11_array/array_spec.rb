@@ -1,6 +1,7 @@
-require "array_extension"
+require File.dirname(__FILE__) + '/array_extension'
 
 describe Array do
+  include ArrayExtension
 
   describe "#sum" do
     it "should be 0 for an empty array" do
