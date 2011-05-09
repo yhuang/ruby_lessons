@@ -1,4 +1,4 @@
-require "#{File.dirname(__FILE__)}/temperature"
+require File.dirname(__FILE__) + "/temperature"
 
 describe Temperature do
   

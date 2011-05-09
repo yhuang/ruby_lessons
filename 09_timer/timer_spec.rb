@@ -1,4 +1,4 @@
-require 'timer'
+require File.dirname(__FILE__) + '/timer'
 
 describe Timer do
   before(:each) do
@@ -25,7 +25,6 @@ describe Timer do
   end
 
   it "should display 4000 seconds as 01|06|40" do
-    pending
     @timer.seconds = 4000
     @timer.time_string.should == "01|06|40"
   end

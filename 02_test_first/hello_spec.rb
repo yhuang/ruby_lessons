@@ -1,4 +1,4 @@
-require "#{File.dirname(__FILE__)}/hello"
+require File.dirname(__FILE__) + "/hello"
 
 describe Hello do
   it "says hello" do
