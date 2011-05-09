@@ -1,4 +1,4 @@
-require 'book'
+require File.dirname(__FILE__) + '/book'
 
 describe Book do
 
@@ -39,4 +39,3 @@ describe Book do
     end
   end
 end
-
