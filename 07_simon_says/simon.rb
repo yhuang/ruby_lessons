@@ -8,13 +8,13 @@ class Simon
   end
 
   def repeat(msg, count = 2)
-    msg_ary = []
+    msg_array = []
 
     count.times do
-      msg_ary << msg
+      msg_array << msg
     end
 
-    msg_ary.join(' ')
+    msg_array.join(' ')
   end
 
   def start_of_word(msg, num)
